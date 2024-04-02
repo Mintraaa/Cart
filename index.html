@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงเตี๊ยมน้ำเต้าหู้&อาหารตามสั่ง</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=K2D&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--Header Section-->
+    <header>
+        <section class="flex">
+            <a href="#" class="logo">
+                <i class="fas fa-utensils"></i>โรงเตี๊ยม</a>
+            <nav class="navbar">
+                <a class="active" href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Review</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                </div>
+        </section>
+    </header>
+    <!--Search Section-->
+    <form action="" id="search-form">
+        <input type="text" placeholder="Search here ..." id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-xmark" id="close"></i>
+    </form>
+    <!--Home Section-->
+<div class="container">
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>อาหารสุขภาพ,อาหารตามสั่ง </span>
+                        <h3>โรงเตี๊ยม  น้ำเต้าหู้ & อาหารตามสั่ง - องศาเดียว น้ำเต้าหู้ข้างราชภัฎ</h3>
+                        <p><br>พากันยำ, อาหารตามใจสั่ง, เมนูน้ำเต้าหู้ร้อน, เมนูน้ำเต้าหู้เย็น, เมนูนมสดร้อน, เมนูนมสดเย็น, เมนูน้ำขิง, เมนูน้ำโบราณ, เมนูปลาท่องโก๋&ขนมปัง
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <!--Dishes Section-->
+    <div class="container">
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">Our Dishes</h3>
+            <h1 class="heading">น้ำเต้าหู้, ขนมปัง</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/IMG_1452.jpg" alt="Product 1 Image" width="200" height="200">
+                    <h3>ขนมปังนึ่ง </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>40 ฿</span>
+                    <button class="add-to-cart" data-product-id="1" data-price="40">Add to Cart</button>
+                </div>
+                 <div class="box">
+                     <img src="images/IMG_1454.jpg" alt="">
+                     <h3>ปลาท่องโก๋</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <span>3 ฿</span>
+                     <button class="add-to-cart" data-product-id="2" data-price="3">Add to Cart</button>
+                 </div>
+                  <div class="box">
+                      <img src="images/IMG_1469.jpg" alt="">
+                      <h3>ซาลาเปาใส่ไส้ </h3>
+                      <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <span>9 ฿</span>
+                      <button class="add-to-cart" data-product-id="3" data-price="9">Add to Cart</button>
+                  </div>
+                   <div class="box">
+                       <img src="images/IMG_1471.jpg" alt="">
+                       <h3>เกียวเกียว </h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>
+                       </div>
+                       <span>8 ฿</span>
+                       <button class="add-to-cart" data-product-id="4" data-price="8">Add to Cart</button>
+                   </div>
+                    <div class="box">
+                        <img src="images/IMG_1455.jpg" alt="">
+                        <h3>น้ำเต้าหู้ทรงเครื่อง </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span>15 ฿</span>
+                        <button class="add-to-cart" data-product-id="5" data-price="15">Add to Cart</button> 
+                    </div>
+                     <div class="box">
+                         <img src="images/IMG_1459.jpg" alt="">
+                         <h3>เต้าฮวยนมสดร้อนทรงเครื่อง</h3>
+                         <div class="stars">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <span>25 ฿</span>
+                         <button class="add-to-cart" data-product-id="6" data-price="25">Add to Cart</button> 
+                     </div>
+            </div>
+        </section>
+    </div>
+    <div id="cart-screen">
+        <button id="print-receipt" class="fas fa-shopping-cart"></button>
+            
+        <h2>Cart</h2>
+        <div id="cart">
+            <p>No items in cart.</p>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+    <script>
+        // เพิ่ม event listener เพื่อเรียกใช้งาน printReceipt() เมื่อปุ่มถูกคลิก
+        document.getElementById("print-receipt").addEventListener("click", () => {
+            printReceipt();
+        });
+    </script>
+    
+    
+    <h2>Cart</h2>
+    <div id="cart">
+        <p>No items in cart.</p>
+    </div>
+    <!--About Section-->
+    <div class="cintainer">
+        <section class="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading">เมนูแนะนำ </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/IMG_1446.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ข้าวไข่ข้นต้มยำ! 99$</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi veritatis magnam
+                        exercitationem tempora sit, harum incidunt quibusdam neque aperiam repudiandae quaerat officia
+                        ducimus optio voluptas quam veniam. Inventore, voluptates.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste quis aliquam omnis ipsum
+                        voluptatem optio ratione laborum nisi a, molestiae id temporibus aspernatur laboriosam maiores
+                        repudiandae perferendis, similique eos.</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>free delivery</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>easy payment</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Serve</span>
+                        </div>
+
+                    </div>
+                    <button class="add-to-cart" data-product-id="16" data-price="99">Add to Cart</button>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <!--Menu Section-->
+    <div class="container">
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">Our Menu</h3>
+            <h1 class="heading">อาหารตามใจสั่ง </h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1443.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวเปล่า </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="7" data-price="15">Add to Cart</button>
+                        <span class="price">15 ฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1444.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวราดผัดคะน้า</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="8" data-price="55">Add to Cart</button>
+                        <span class="price">55 ฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1445.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวผัดกุ้ง </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="9" data-price="55">Add to Cart</button>
+                        <span class="price">55 ฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1447.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวราดผัดกะปิ</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="10" data-price="60">Add to Cart</button>
+                        <span class="price">60 ฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1449.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวราดผัดผักบุ้ง</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="11" data-price="55">Add to Cart</button>
+                        <span class="price">55 ฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1450.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวราดผัดพริกแกง  </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="12" data-price="55">Add to Cart</button> 
+                        <span class="price">55 ฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1451.jpeg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>มาม่าผัดฉ่า</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="13" data-price="55">Add to Cart</button> 
+                        <span class="price">55฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1456.jpg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>ข้าวคลุกทะเลต้มยำ</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="14" data-price="60">Add to Cart</button> 
+                        <span class="price">60฿</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/IMG_1458.jpg">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>สปาเก็ตตี้ผัดขี้เมา </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button class="add-to-cart" data-product-id="15" data-price="79">Add to Cart</button>
+                        <span class="price">79฿</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="cart.js"></script>
+    <script>
+        // เพิ่ม event listener เพื่อเรียกใช้งาน printReceipt() เมื่อปุ่มถูกคลิก
+        document.getElementById("print-receipt").addEventListener("click", () => {
+            printReceipt();
+        });
+    </script>
+    <!--Review Section-->
+    <div class="container">
+        <section class="review" id="review">
+            <h3 class="sub-heading">customer's review</h3>
+            <h1 class="heading">what they say</h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ (2).jpeg" />
+                            <div class="user-info">
+                                <h3>Min Jane</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequuntur ad
+                            molestiae obcaecati? Beatae voluptates quam voluptatem eaque </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ (2).jpeg" />
+                            <div class="user-info">
+                                <h3>Art Nim</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequuntur ad
+                            molestiae obcaecati? Beatae voluptates quam voluptatem eaque </p>
+                    </div>
+                   
+            </div>
+        </section>
+    </div>
+
+   \
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>
